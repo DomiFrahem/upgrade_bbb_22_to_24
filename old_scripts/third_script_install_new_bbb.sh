@@ -4,7 +4,7 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 
-email=for_kbsu@alexsid.ru
+email=example@domain.com
 version=bionic-240
 
 while getopts v:s:e: flag
