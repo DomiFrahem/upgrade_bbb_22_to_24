@@ -10,9 +10,9 @@ version=bionic-240
 while getopts v:s:e: flag
 do
     case "${flag}" in 
-        s: server_name=${OPTARG};;
-        e: email=${OPTARG};;
-        v: version=${OPTARG};;
+        s) server_name=${OPTARG};;
+        e) email=${OPTARG};;
+        v) version=${OPTARG};;
     esac
 done
 
