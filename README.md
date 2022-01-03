@@ -22,7 +22,7 @@
 ###### Третия стадия
 > Установка BigBlueButton <br />
 ``
-./script.sh -s example.mydomain.com -e exmaple@domain.com -v bionic-240 -g 
+./script.sh -S 3 -s example.mydomain.com -e exmaple@domain.com -v bionic-240 -g 
 ``<br />
 **-s** -- Домен<br />
 **-e** -- Email: Default = exmaple@domain.com<br />
